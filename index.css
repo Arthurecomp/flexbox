@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;            
+}
+
+p{
+    margin: 0;
+    padding: 00;
+    color: aliceblue;
+}
+main{
+    padding: 0% 0%;
+    height: 100%;        
+    border-style: solid;
+    border-color: green;  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;  
+}
+footer{
+    border-style: solid;
+    border-color:green;
+    padding: 30px;
+    box-sizing: border-box;
+}
+header{
+    border-style: solid;
+    border-color: green;
+    padding: 30px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    margin: 0px;     
+    box-sizing: border-box;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;    
+    align-content: space-between;
+    background-color: black;
+    gap: 10px    
+}
+
+
+.section1{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    height: 75%;
+    box-sizing: border-box;
+}
+.section2{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    height: 25%;
+    box-sizing: border-box;
+}
+.div1{
+    display: flex;    
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;    
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.div2{
+    display: flex;
+    gap: 32px;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;    
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.aside1{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75%;
+    box-sizing: border-box;
+    
+}
+.navHeader{    
+    display: flex;
+    justify-content: end;
+    
+}
+.section_aside1{
+    height: 100%;
+}
+
+aside{
+    border-style: solid;
+    border-color: chartreuse;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+article{
+    border-style: solid;
+    border-color: blue;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+section{
+    border-style: solid;
+    border-color: yellow;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+p{
+    font-size: large;
+    font-weight: 200;
+    text-align:center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
